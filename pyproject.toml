@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "tensor_completion"
+version = "0.0.1"
+authors = [
+  { name="Antoine Debouchage", email="antoine.debouchage@student-cs.fr" },
+  { name="Gaspard Bethelier", email="gaspard.berthelier@student-cs.fr" },
+]
+description = "Master of Research MVA project - Reimplementation of the paper 'Low-Rank Autoregressive Tensor Completion for Multivariate Time Series Forecasting'"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

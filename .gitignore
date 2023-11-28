@@ -1,0 +1,4 @@
+__pycache__
+
+# Remove egg-info
+*.egg-info
